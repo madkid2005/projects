@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "vazir";
+    src: url(/fonts/vazir.ttf);
+}
+
+body {
+    font-family: "vazir";
+}
+
+.hiden {
+    display: none;
+}
+
+.color1 {
+    background-color: #ff3333;
+}
