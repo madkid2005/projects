@@ -5,6 +5,7 @@
 
 body {
     font-family: "vazir";
+    background-color: azure;
 }
 
 .hiden {
@@ -22,6 +23,3 @@ body {
 li {
     list-style-type: none;
 }
-
-
-/* کمی مونده ازش */
