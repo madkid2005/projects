@@ -17,21 +17,28 @@
 
         <nav class="navbar navbar-expand-lg  ">
             <div class="container-fluid  py-2 ">
-                <a class="navbar-brand" href="#"> <img class=" d-none d-md-block me-1 " src="/img/logo.png" style="width: 180px ; height: 50px;" alt=""></a>
-                <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-start"></span>
+                <a class="navbar-brand" href="#"> <img class=" me-1 " src="/img/logo.png" style="width: 180px ; height: 50px;" alt=""></a>
+                <button class="navbar-toggler justify-content-end " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-end"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2 text-center">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4 text-center ">
 
 
-                        <div id="kia" class=" col-md-3 color1 ms-4 mt-2 text-center align-items-center">
-                            <span class="text-white activate">
+
+                        <div class=" col-md-3 color1 ms-4 mt-2 text-center align-items-center">
+                            <span id="kia" class="text-white activate " type="button" data-bs-toggle="dropdown">
                                 <i class="bi bi-menu-button-wide mx-1"></i>
                                 دسته بندی کالا
                             </span>
+                            <div class="dropdown ">
 
-
+                                <ul class="dropdown-menu color1 text-center">
+                                    <li><button class="dropdown-item text-white" type="button">Action</button></li>
+                                    <li><button class="dropdown-item text-white" type="button">Another action</button></li>
+                                    <li><button class="dropdown-item text-white" type="button">Something else here</button></li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class=" col-md-10 color1 mt-2 text-start  ">
@@ -65,18 +72,21 @@
                         </form>
 
 
-                        <div id="btnsearchhd" class="mt-2 ">
-                            <i class="bi bi-search mx-2 activate h4 f-bold text-white"></i>
+                        <div id="btnsearchhd" class="mt-2 d-none d-md-block">
+                            <i class="bi bi-search mx-2 activate   h4 f-bold text-white"></i>
 
                         </div>
 
                     </li>
-                    <div class="text-center ">
+                    <div class="text-center d-flex justify-content-between d-sm-block d-md-none ">
+                        <button type="button " class="btn d-md-block btn-light "><i class="bi bi-cart fw-bold   activate       " ></i></button>
+
                         <button type="button " class="btn btn-light mx-2 ">ورود | ثبت نام</button>
                     </div>
 
+
                 </div>
-                <button type="button " class="btn d-md-block btn-light "><i class="bi bi-cart fw-bold   activate       " ></i></button>
+
 
             </div>
 
@@ -91,19 +101,19 @@
 
 
 
-    <div class="container focus-ring">
+    <div class="container focus-ring ">
 
-        <div class="row text-center ">
+        <div class="row text-center d-none d-lg-block ">
             <div class="col-md-3 ms-5 ">
                 <div class="ms-5 text-white">
 
 
-                    <ul id="kiahd" class="hiden  " style="list-style-type: none;">
-                        <div id="madkid1 " class="d-flex flex-row d-inline  ">
+                    <ul id="kiahd" class="hiden " style="list-style-type: none;">
+                        <div id="madkid1 " class="d-flex flex-row d-inline ">
 
 
 
-                            <div class="p-3 d-block list-group-item list-group-item-action list-group-item-info ">سلام</div>
+                            <div class="p-3 list-group-item list-group-item-action list-group-item-info ">سلام</div>
                             <div class="p-5 bg-danger justify-content-center x-5 hiden">
                                 <div>sdsdsd</div>
 
@@ -114,8 +124,8 @@
 
                         </div>
 
-                        <div class="p-3 d-block list-group-item list-group-item-action list-group-item-info">خدافظ</div>
-                        <div class="p-3  d-block  list-group-item list-group-item-action list-group-item-info">علی علی</div>
+                        <div class="p-3 list-group-item list-group-item-action list-group-item-info">خدافظ</div>
+                        <div class="p-3  list-group-item list-group-item-action list-group-item-info">علی علی</div>
                     </ul>
                 </div>
             </div>
