@@ -5,6 +5,7 @@
 
 body {
     font-family: "vazir";
+    background-color: rgb(250, 250, 250);
 }
 
 .hiden {
@@ -13,6 +14,11 @@ body {
 
 .color1 {
     background-color: #ff3333;
+}
+
+.border-color {
+    border: #ff3333;
+    border-color: #ff3333;
 }
 
 .color3 {
