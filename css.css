@@ -5,7 +5,7 @@
 
 body {
     font-family: "vazir";
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(220, 220, 225);
 }
 
 .hiden {
@@ -14,6 +14,14 @@ body {
 
 .color1 {
     background-color: #ff3333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-color1-op {
+    background-color: #fa4747;
 }
 
 .border-color {
@@ -54,6 +62,10 @@ li {
     float: left;
     height: 46px;
     padding: 0 10px;
+}
+
+.line-through {
+    text-decoration-line: line-through;
 }
 
 .rate:not(:checked)>input {
