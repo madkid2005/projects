@@ -246,9 +246,16 @@
                     <form onsubmit="return validateInput()">
                         <input type="tel" class="border  mt-2 d-flex align-content-center w-100 border-danger rounded-3" id="inputField" maxlength="11">
                         <p class="mt-2 fs-6 text-danger text-start" style="font: size 1; ">لطفا شماره خود را کامل بنویسید</p>
-                        <button class="border btn btn-danger mb-4  text-center w-100 border-danger rounded-3" type="submit">
-ورود
-                            </button>
+
+
+                        <button class="border btn btn-danger mb-2  text-center w-100 border-danger rounded-3" type="submit">
+                                
+                                <a class="text-white" href="./verify.html ">
+
+        ورود
+    </a>
+    </button>
+
                         <!-- <input class="border  mt-2 d-flex align-content-center w-100 border-danger rounded-3" maxlength="11" id="inputField" placeholder="0905-xxx-xxxx" type=" tel "> -->
                         <!-- <button class="btn btn-danger w-100 mb-2 " type="submit ">ورود</button> -->
                     </form>
@@ -262,8 +269,6 @@
 
 
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./javascripts.js"></script>
 <script>
     function validateInput() {
         var input = document.getElementById("inputField").value;
@@ -272,7 +277,11 @@
             return false;
         }
         return true;
+
     }
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./javascripts.js"></script>
+
 
 </html>
