@@ -19,3 +19,15 @@ function kia() {
 
 }
 select2.addEventListener("mouseover", kia)
+
+const clickberand = document.getElementById("clickberand");
+const clickberandshow = document.getElementById("clickberandshow");
+const changeicon = document.getElementById("changeicon");
+
+
+function berands() {
+    clickberandshow.classList.toggle("hiden")
+    changeicon.classList.toggle("bi-chevron-down")
+    changeicon.classList.toggle("bi-chevron-up")
+}
+clickberand.addEventListener('click', berands)
