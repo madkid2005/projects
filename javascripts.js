@@ -31,3 +31,9 @@ function berands() {
     changeicon.classList.toggle("bi-chevron-up")
 }
 clickberand.addEventListener('click', berands)
+
+document.onload = function() {
+    setTimeout(function() {
+        document.getElementById('advertisement').style.display = 'block';
+    }, 3000); // 3 seconds
+};
