@@ -37,3 +37,15 @@ document.onload = function() {
         document.getElementById('advertisement').style.display = 'block';
     }, 3000); // 3 seconds
 };
+
+
+// NAVBAR DASHTEBANDI 
+
+const clicknavbar = document.getElementById("ClickNavBar");
+
+const navbar = document.getElementById("freeze");
+
+function daste() {
+    navbar.classList.toggle("hiden")
+}
+clicknavbar.addEventListener('click', daste)
